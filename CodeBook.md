@@ -38,6 +38,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Variables 
 
+There are 180 observations of 68 variables, where the `Activity` variable is a factor, the `Subject_ID` is an integer and the other variables are numbers.
+
 * **Activity**: The activity performed for each subject. One of WALKING,  WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 * **Subject_ID**: The subject identifier. From 1 to 30.
 * **TimeBodyAccelerationMean-X**: The mean of tBodyAcc-mean()-X for each combination of Activity and Subject
