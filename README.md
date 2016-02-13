@@ -37,6 +37,13 @@ You should create one R script called run_analysis.R that does the following.
 ### Analysis Script
 
 `run_analysis.R` file cointains the script perfomed to clean the original data as described above.
+To run the script type the following in your R working directory:
+
+```
+source("run_analysis.R)
+run_analysis.R
+```
+This script will download the data from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. It will merge the train and the test set and will create one big data set with the proper names for each variable. It will also extract only the activity and subject and the mean and std variables and will replace the identifier of each activity record to its name. Finally, it will create an tidy_data.txt output file that cointains the mean of each variable for each activity and subject.
 
 ### Output Data
 
@@ -44,5 +51,5 @@ You should create one R script called run_analysis.R that does the following.
 
 ### Code Book 
 
-`CodeBook.md`file is codebook of the tidy data genereted. It has the explanation of the process to transform the original data to the tidy data and the description of each variable of the tidy data.
+`CodeBook.md` file is the codebook of the tidy data generated. It has the explanation of the process to transform the original data to the tidy data and the description of each variable of the tidy data.
 
